@@ -2,8 +2,8 @@ function Jokes(props){
 
     return (
         <>
-        <h3>setup</h3>
-        <h4>punchline</h4>
+        <h3>{props.setup}</h3>
+        <h4>{props.punchline}</h4>
         </>
     )
 }
